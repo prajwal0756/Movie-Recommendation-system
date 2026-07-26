@@ -28,25 +28,25 @@ The complete system is deployed as an interactive Streamlit web application wher
 
 
 ## 🏗️ Project Workflow
-Dataset
+Dataset <br>
 |
 ↓
-Data Cleaning & Preprocessing
+Data Cleaning & Preprocessing<br>
 |
 ↓
-Feature Engineering
+Feature Engineering<br>
 |
 ↓
-Movie Feature Vector Creation
+Movie Feature Vector Creation<br>
 |
 ↓
-Similarity Calculation
+Similarity Calculation<br>
 |
 ↓
-Model Serialization (Pickle)
+Model Serialization (Pickle)<br>
 |
 ↓
-Streamlit Application
+Streamlit Application<br>
 |
 ↓
 Cloud Deployment
@@ -104,17 +104,17 @@ When a user selects a movie:
 
 
 ## 📂 Project Structure
-Movie-Recommendation-System/
+Movie-Recommendation-System/<br>
 │
-├── app.py
-├── requirements.txt
+├── app.py<br>
+├── requirements.txt<br>
 │
-├── movie_dict.pkl
-├── similarity.pkl
+├── movie_dict.pkl<br>
+├── similarity.pkl<br>
 │
-├── tmdb dataset/
+├── tmdb dataset/<br>
 │
-└── README.md
+└── README.md<br>
 
 
 
@@ -139,11 +139,11 @@ Input:
 Interstellar
 
 Output:
-Recommended Movies:
-Inception
-The Martian
-Gravity
-Arrival
+Recommended Movies:<br>
+Inception<br>
+The Martian<br>
+Gravity<br>
+Arrival<br>
 Blade Runner 2049
 
 
@@ -159,19 +159,26 @@ pip install -r requirements.txt
 
 Run the application:
 streamlit run app.py
+```
 
-📈 Future Improvements:
-Add user-based recommendation
-Add hybrid recommendation system
-Add user ratings
-Add authentication
-Deploy using FastAPI + React architecture
-Improve recommendation accuracy using deep learning embeddings
 
-👨‍💻 Author
-Prajwal Subedi
+
+
+##  📈 Future Improvements
+
+* Add user-based recommendation
+* Add hybrid recommendation system
+* Add user ratings
+* Add authentication
+* Deploy using FastAPI + React architecture
+* Improve recommendation accuracy using deep learning embeddings
+
+---
+
+## 👨‍💻 Author
+
+**Prajwal Subedi**  
 Data Science Enthusiast | Machine Learning | AI
-GitHub:
-https://github.com/prajwal0756/Movie-Recommendation-system.git
-LinkedIn:
-www.linkedin.com/in/prajwal-subedi
+
+* **GitHub:** [prajwal0756](https://github.com/prajwal0756/Movie-Recommendation-system.git)
+* **LinkedIn:** [Prajwal Subedi](https://www.linkedin.com/in/prajwal-subedi)
