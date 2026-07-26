@@ -15,17 +15,17 @@ import gdown
 
 if not os.path.exists("movie_dict.pkl"):
     gdown.download(
-        "https://drive.google.com/file/d/14Oedl_TN05k98Q4oR7UoAAtfBP_OBrFG/view?usp=share_link",
-        "movie_dict.pkl",
-        quiet=False,
-    )
+    id="14Oedl_TN05k98Q4oR7UoAAtfBP_OBrFG",
+    output="movie_dict.pkl",
+    quiet=False
+)
 
 if not os.path.exists("similarity.pkl"):
-    gdown.download(
-        "https://drive.google.com/file/d/1yRa2rw9frcDNmth4wrDrXPAkEBc4a3w9/view?usp=share_link",
-        "similarity.pkl",
-        quiet=False,
-    )
+   gdown.download(
+    id="1yRa2rw9frcDNmth4wrDrXPAkEBc4a3w9",
+    output="similarity.pkl",
+    quiet=False
+)
 
 # -----------------------------
 # Load Files
