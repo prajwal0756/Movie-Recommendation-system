@@ -2,9 +2,9 @@
 
 A Content-Based Movie Recommendation System built using Machine Learning that recommends similar movies based on user preferences. The application provides movie recommendations along with posters fetched dynamically using the TMDB API.
 
-🌐 Live Demo: [Add Streamlit Deployment Link]
+🌐 Live Demo: [(https://movietalk.streamlit.app)]
 
-📂 Repository: [Add GitHub Repository Link]
+📂 Repository: [(https://github.com/prajwal0756/Movie-Recommendation-system.git)]
 
 
 ## 📌 Project Overview
@@ -180,5 +180,5 @@ streamlit run app.py
 **Prajwal Subedi**  
 Data Science Enthusiast | Machine Learning | AI
 
-* **GitHub:** [prajwal0756](https://github.com/prajwal0756/Movie-Recommendation-system.git)
+* **GitHub:** [prajwal0756](https://github.com/prajwal0756)
 * **LinkedIn:** [Prajwal Subedi](https://www.linkedin.com/in/prajwal-subedi)
